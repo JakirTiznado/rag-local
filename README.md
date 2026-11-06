@@ -228,3 +228,8 @@ metadatos reales devueltos por Qdrant (no con texto generado por el modelo).
   irregulares pueden requerir OCR/parseo especializado.
 - Qdrant en `local_path` está pensado para un único proceso; para concurrencia,
   usa `QDRANT_MODE=server`.
+
+## 10. Licencia
+
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo
+[`LICENSE`](LICENSE) para más detalles.
