@@ -1,0 +1,19 @@
+# --- Núcleo LangChain (LCEL, prompts, splitters) ---------------------------
+langchain-core>=0.3.72,<0.4
+langchain-text-splitters>=0.3.8,<0.4
+
+# --- Integraciones de modelos ----------------------------------------------
+langchain-ollama>=0.3.3,<0.4
+langchain-openai>=0.3.28,<0.4
+langchain-google-genai>=2.1.9,<3.0
+
+# --- Vector store -----------------------------------------------------------
+langchain-qdrant>=0.2.0,<0.3
+qdrant-client>=1.12.0,<2.0
+
+# --- Configuración, CLI y extracción de PDF --------------------------------
+pydantic>=2.8.0,<3.0
+pydantic-settings>=2.4.0,<3.0
+typer>=0.12.0,<1.0
+rich>=13.7.0,<15.0
+pymupdf>=1.24.0,<2.0
